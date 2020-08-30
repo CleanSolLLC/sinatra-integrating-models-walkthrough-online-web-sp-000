@@ -9,8 +9,7 @@ class App < Sinatra::Base
 
   post '/' do
     @analyzed_text = TextAnalyzer.new(params[:user_text])
-    
-    @analyzed_text.most_used_letter.each+pair do |k,v|
+    each_pair do |k,v|
       
     binding.pry
     end

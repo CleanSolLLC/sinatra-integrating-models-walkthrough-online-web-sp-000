@@ -2,7 +2,9 @@ class TextAnalyzer
 
   attr_reader :text 
   
-  def initialize
+  def initialize(text)
+    @text = text
+  end
 
 
 end
